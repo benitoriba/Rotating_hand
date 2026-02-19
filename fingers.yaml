@@ -1,0 +1,15 @@
+# fingers.yaml
+outputs_root: outputs
+baud: 115200
+cfg_timeout_s: 3.0
+
+fingers:
+  - index: 1  # ls /dev/tty*
+    port: /dev/ttyUSB0 # sudo chmod 666 /dev/ttyUSB1
+    name: finger_1   # optional label (only used for display/log folder naming if you want)
+  - index: 2
+    port: /dev/ttyUSB1
+    name: finger_2
+  - index: 3
+    port: /dev/ttyUSB2
+    name: finger_3

@@ -1,0 +1,42 @@
+Finger Control (PC Side) — README
+This repo provides a PC-side Python controller for one or more Arduino-based “fingers” over USB serial.
+
+It supports:
+Background reading + logging (one process per finger)
+
+Warmup/config handshake (WARMUP → CFG)
+Run gating (must START before sending targets)
+20 Hz status stream (STAT,... from Arduino)
+
+
+Teach modes
+TEACH_ALL (motor + servos passive)
+TEACH_SERVOS (servos passive, motor holds position)
+
+Pose capture & replay:
+
+POSE (read current pose)
+SAVE <name> (save current pose into poses.yaml)
+RUN <name> (send the saved pose as a command)
+
+
+#!/usr/bin/env python3
+# Python 3.8 compatible
+# pip install pyserial loguru pyyaml
+#
+# Usage:
+# REMEMBER
+#   conda activate vtIL
+#   ls /dev/tty*
+#   ./chmod_usb.sh
+#   python finger_control.py fingers.yaml
+#
+# YAML example:
+# outputs_root: outputs
+# baud: 115200
+# cfg_timeout_s: 6.0
+# boot_delay_s: 2.0
+# fingers:
+#   - index: 1
+#     port: /dev/ttyUSB0
+#     name: finger_1
