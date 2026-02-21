@@ -1,28 +1,53 @@
-Basic forward
-finger 1: D 360.0, S1 150.0, S2 45.0
-Basic backward
-finger 1: D -360.0, S1 40.0, S2 120.0
-finger 1: D 0.0, S1 40.0, S2 120.0
+saneutral_pos
+finger 1: D 0,S1 90,S2 90; finger 2: D 0,S1 90.0,S2 90.0; finger 3: D 0.0,S1 90.0,S2 90.0
 
-finger 1: D -360,S1 45,S2 45; finger 2: D -360,S1 45,S2 45
-finger 1: D 180,S1 150,S2 45; finger 2: D 180,S1 150,S2 45; finger 3: D 180,S1 150,S2 45
+Simetric_open
+finger 1: D 0,S1 40,S2 90; finger 2: D 0,S1 40.0,S2 90.0; finger 3: D 0.0,S1 40.0,S2 90.0
 
-EVERYONE LEFT AND RIGHT
-finger 1: D 180,S1 90,S2 45; finger 2: D 180,S1 90,S2 45; finger 3: D 180,S1 90,S2 45
-finger 1: D -180,S1 90,S2 150; finger 2: D -180,S1 90,S2 150; finger 3: D -180,S1 90,S2 150
+Simetric_close
+finger 1: D 0,S1 140.0,S2 82.0; finger 2: D 0,S1 128.0,S2 65.0; finger 3: D 0,S1 118.0,S2 88.0
+---Drill
+finger 1: D 3.6,S1 120.0,S2 87.0; finger 2: D -16.56,S1 120.0,S2 76.0; finger 3: D -7.2,S1 120.0,S2 84.0
+---Pringles
+finger 1: D 3.6,S1 103.0,S2 84.0; finger 2: D 4.32,S1 120.0,S2 68.0; finger 3: D -16.56,S1 120.0,S2 83.0
+---Glass
+finger 1: D 4.32,S1 155.0,S2 87.0; finger 2: D -13.68,S1 105.0,S2 62.0; finger 3: D -15.12,S1 105.0,S2 83.0
+---trtra
+finger 1: D 0,S1 120,S2 90; finger 2: D 0,S1 120.0,S2 90.0; finger 3: D 0.0,S1 120.0,S2 90.0
+---Hat
+finger 1: D 10.8,S1 105.0,S2 86.0; finger 2: D -15.12,S1 50.0,S2 87.0; finger 3: D -13.68,S1 95.0,S2 86.0
 
-POSITION READY TO GRASP
-finger 1: D 0,S1 90,S2 90; finger 2: D 0,S1 90,S2 90; finger 3: D 0,S1 90,S2 90
 
-OPEN
-finger 1: D 0,S1 30,S2 90; finger 2: D 0,S1 30,S2 90; finger 3: D 0,S1 30,S2 90
+Antropomorfic_open
+finger 1: D 299.52,S1 47.0,S2 97.0; finger 2: D -944.64,S1 40.0,S2 40.0; finger 3: D 478.8,S1 45.0,S2 26.0
 
-CLOSE
-finger 1: D 0,S1 120,S2 90; finger 2: D 0,S1 120,S2 90; finger 3: D 0,S1 120,S2 90
+antropomorfic_close
+finger 1: D 289.44,S1 140.0,S2 91.0; finger 2: D -939.6,S1 140.0,S2 38.0; finger 3: D 490.32,S1 140.0,S2 18.0
+---Drill
+finger 1: D 322.56,S1 140.0,S2 95.0; finger 2: D -954.72,S1 125.0,S2 37.0; finger 3: D 36.0,S1 130.0,S2 54.0
+---pringles
+finger 1: D 288.0,S1 120.0,S2 91.0; finger 2: D -943.2,S1 120.0,S2 38.0; finger 3: D 470.88,S1 105.0,S2 19.0
+---medium_glass
+finger 1: D 308.16,S1 73.0,S2 91.0; finger 2: D -941.04,S1 64.0,S2 38.0; finger 3: D 470.16,S1 39.0,S2 19.0
+---glass
+finger 1: D 308.16,S1 95.0,S2 86.0; finger 2: D -941.04,S1 96.0,S2 36.0; finger 3: D 470.88,S1 105.0,S2 106.0
+---Tetra
+finger 1: D 308.16,S1 140.0,S2 91.0; finger 2: D -941.04,S1 140.0,S2 37.0; finger 3: D 470.88,S1 140.0,S2 33.0
 
-Pinch
-finger 1: D -690.48,S1 113.0,S2 28.0; finger 2: D -896.4,S1 109.0,S2 124.0; finger 3: D -461.52,S1 31.0,S2 83.0
-finger 1: D -690.48,S1 80.0,S2 28.0; finger 2: D -896.4,S1 109.0,S2 124.0; finger 3: D -461.52,S1 31.0,S2 83.0
+barret_open
+finger 1: D -207.36,S1 38.0,S2 117.0; finger 2: D -630.72,S1 29.0,S2 27.0; finger 3: D -473.76,S1 32.0,S2 91.0
+
+barret_close
+finger 1: D -209.52,S1 140.0,S2 114.0; finger 2: D -628.56,S1 140.0,S2 25.0; finger 3: D -470.88,S1 130.0,S2 85.0
+--Drill
+finger 1: D -209.52,S1 140.0,S2 114.0; finger 2: D -1090.8,S1 125.0,S2 51.0; finger 3: D -470.88,S1 135.0,S2 86.0
+--Springles
+finger 1: D -202.32,S1 120.0,S2 114.0; finger 2: D -645.84,S1 20.0,S2 25.0; finger 3: D -472.32,S1 120.0,S2 86.0
+--Glass
+finger 1: D -202.32,S1 110.0,S2 94.0; finger 2: D -645.84,S1 105.0,S2 24.0; finger 3: D -472.32,S1 120.0,S2 85.0
+--Tetra
+finger 1: D -204.48,S1 100.0,S2 113.0; finger 2: D -626.4,S1 100.0,S2 43.0; finger 3: D -465.12,S1 120.0,S2 86.0
+
 REMEMBER
 ./chmod_usb.sh
 
